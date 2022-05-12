@@ -1,0 +1,43 @@
+.container-gaia.app-index-container-gaia {
+    position: absolute;
+}
+
+.recordlist-gaia.recordlist-manually-adjusted-gaia thead th:last-child{
+    width: 85px !important;
+}
+/* .recordlist-gaia.recordlist-manually-adjusted-gaia thead th:nth-child(2) {
+    width: 47px !important;
+} */
+
+.contents-gaia.app-index-contents-gaia {
+    width: 100% !important;
+    overflow: auto !important;
+}
+
+li.gaia-argoui-menuitem-parent a[title="(All records)"] {
+    display: none;
+}
+li.gaia-argoui-menuitem-parent a[title="(Assigned to me)"] {
+    display: none;
+}
+
+.format-th {
+    width: 140px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.format-input {
+    height: 20px;
+    width: 20px;
+}
+
+.css-button {
+    height: 48px;
+    border: 1px solid #e3e7e8;
+    background-color: #f7f9fa;
+    color: #3498db;
+    font-weight: bold;
+    margin-right: 10px;
+    min-width: 140px;
+}

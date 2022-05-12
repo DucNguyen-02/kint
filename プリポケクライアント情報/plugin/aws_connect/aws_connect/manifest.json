@@ -1,0 +1,30 @@
+{
+    "manifest_version": 1,
+    "version": 1,
+    "type": "APP",
+    "name": {
+        "ja": "AWS連携プラグイン",
+        "en": "AWS integration plugin"
+    },
+    "description": {
+        "ja": "このプラグインは、AWSと連携するためのオリジナルプラグインです。",
+        "en": "This plugin is the original plugin for working with AWS."
+    },
+    "icon": "image/icon.png",
+    "homepage_url": {
+        "ja": "https://example.com/jp/",
+        "en": "https://example.com/en-us/"
+    },
+    "desktop": {
+        "js": [
+            "js/customize_record-detail.js",
+            "js/customize_record-index.js"
+        ]
+    },
+    "config": {
+        "html": "html/config.html",
+        "js": [
+            "js/config.js"
+        ]
+    }
+}

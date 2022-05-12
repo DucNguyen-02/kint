@@ -1,0 +1,33 @@
+<!-- 設定画面用のHTMLファイル -->
+
+<html>
+    <body>
+        <h3>AWS連携プラグイン　設定画面</h3>
+        <br/><br/>
+        <div id="form">
+            <div>
+                <label for="text">環境選択　</label>
+                <select id="mode">
+                    <option value="none" selected>　</option>
+                    <option value="開発STG">開発STG</option>
+                    <option value="本番STG">本番STG</option>
+                    <option value="本番">本番</option>
+                </select>
+            </div>
+            <br/>
+            <div>
+                <label for="text">アクセスキー（仮）　</label>
+                <input type="text" id="access_key">
+            </div>
+            <br/>
+            <div>
+                <label for="text">シークレットキー（仮）　</label>
+                <input type="text" id="secret_access_key">
+            </div>
+            <br/><br/>
+            <div class="button">
+                <button type="button" id="button_submit">保存</button>
+            </div>
+        </div>
+    </body>
+</html>
